@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+p {
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  font-style: italic;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.ott-container {
+  margin: 20px auto;
+  max-width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ott-platforms {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  background-color: #274aca;
+  border: none;
+  border-radius: 5px;
+  color: rgb(238, 231, 231);
+  box-shadow: 4px 2px;
+  font-weight: 600;
+}
+
+.list-holder {
+  max-width: 50vw;
+  padding: 0;
+  margin: 20px auto;
+  list-style: none;
+  border: 2px solid #274aca;
+}
+.display-list + .display-list {
+  border-top: 2px solid #274aca;
+}
+
+.display-list {
+  padding: 20px;
+  text-align: left;
+}
+
+.display-list div {
+  padding: 5px;
+}
+
+.display-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.display-rating {
+  color: rgb(235, 235, 78);
+}
+.display-rating span {
+  color: white;
+  font-weight: bold;
+}
